@@ -1,8 +1,8 @@
 {
     "keyboard_name": "Assistive Keyboard",
-    "manufacturer": "FEIT",
-    "url": "",
-    "maintainer": "FEIT",
+    "manufacturer": "FEEIT",
+    "url": "https://github.com/FEEIT-Assistive-Technologies/Assistive-keyboard",
+    "maintainer": "Martin Milanoski",
     "usb": {
         "vid": "0xFEED",
         "pid": "0x0000",
