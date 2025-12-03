@@ -18,5 +18,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 /* Select hand configuration */
-#define MASTER_LEFT
-#define EE_HANDS
+#define MASTER_LEFT                 // Master is on left side
+#define EE_HANDS                    // Determines the keyboard orientation of the layout
+#define SPLIT_LAYER_STATE_ENABLE    // Enables diode sync between split keyboards

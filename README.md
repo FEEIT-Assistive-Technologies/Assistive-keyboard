@@ -35,6 +35,22 @@ All printable parts are located in `/3D model/`.
 All schematics are provided under `/hardware/kicad`.
 
 ### Components
-- Microcontroller: ATmega32U4 (Pro Micro)  
+- Microcontroller: ATmega32U4 (Pro Micro 5V)  
 - Power: 5V USB
-- Connectivity: USB HID / Aux Serial Communication  
+- Connectivity: USB HID / Aux Serial Communication (Bitbang)
+
+---
+
+## Build
+
+### Prerequisites
+- **QMK MSYS**
+> **Supported OS:** Windows, MacOS, Linux/WSL, FreeBSD
+
+### Compile 
+To create a hex file, you need to run the following command:
+
+```bash
+qmk compile -kb assiboard -km default
+```
+
