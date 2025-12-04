@@ -66,6 +66,7 @@ qmk info -l -kb assiboard
 
 The layout that we used is the following:
 
+```bash
 ┌──┐┌──┐┌──┐┌──┐┌──┐┌──┐┌──┐                    ┌──┐┌──┐┌──┐┌──┐┌──┐┌──┐┌──┐
 │Ѝ ││1 ││2 ││3 ││4 ││5 ││6 │                    │7 ││8 ││9 ││0 ││- ││= ││Ba│
 └──┘└──┘└──┘└──┘└──┘└──┘└──┘                    └──┘└──┘└──┘└──┘└──┘└──┘└──┘
@@ -81,7 +82,7 @@ The layout that we used is the following:
     ┌──┐┌──┐┌──┐┌──────────┐                    ┌──────────┐┌──┐┌──┐┌──┐┌──┐┌──┐┌──┐
     │Ct││Wi││Al││Space     │                    │Space     ││Al││Me││Ct││Le││Do││Ri│
     └──┘└──┘└──┘└──────────┘                    └──────────┘└──┘└──┘└──┘└──┘└──┘└──┘
-
+```
 
 ### Compile 
 To create a hex file, you need to run the following command:
